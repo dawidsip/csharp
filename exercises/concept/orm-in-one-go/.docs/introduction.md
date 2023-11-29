@@ -17,7 +17,7 @@ In the above example the file system resources associated with `file` will be re
 
 For the pattern to work the variable in the using statement must be a reference type that implements the `IDisposable` interface and must release resources/reset program state in its `Dispose()` method.
 
-C# 8 introduces a refinement to the pattern. A using statement can placed at the beginning of a block.
+C# 8 introduces a refinement to the pattern. A using statement can be placed at the beginning of a block.
 
 ```csharp
 using var drawingResource = some_provided_or_new_object;
